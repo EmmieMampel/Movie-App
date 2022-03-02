@@ -70,3 +70,42 @@ h2{
     text-align: center;
     color: #fff;
 }
+
+/* Home */
+
+.home{
+    position: relative;
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+.home-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.home-text{
+    padding-left: 40px;
+}
+
+.home-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-text p{
+    font-weight: 0.938rem;
+    margin: 10px 0 20px;
+    color:rgb(0, 0, 0);
+}
+
+.watch-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+}
